@@ -85,3 +85,6 @@ seo_structured_data:
     url: https://www.ucoder.ir
     logoUrl: https://www.ucoder.ir/css/images/logo.jpg
 
+# Disqus
+disqus_shortname: ucoder
+
