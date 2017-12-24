@@ -5,7 +5,7 @@
 # Site
 title: The u-coder!
 subtitle:
-description: The tales of an adventurous programmer!
+description: Personal blog of Mohamad mehdi Kharatizadeh
 author: Mohamad mehdi Kharatizadeh
 language: default
 timezone:
@@ -78,4 +78,10 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+seo_structured_data:
+  organization:
+    name: Blog of Mehdi Kharati
+    url: https://www.ucoder.ir
+    logoUrl: https://www.ucoder.ir/css/images/logo.jpg
 
