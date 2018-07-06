@@ -77,3 +77,4 @@ sudo crontab -e
 ```bash
 setsebool -P httpd_read_user_content 1
 ```
+ 
