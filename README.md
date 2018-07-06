@@ -71,4 +71,9 @@ sudo crontab -e
 ```
 0 0,12 * * * python -c 'import random; import time; time.sleep(random.random() * 3600)' && certbot renew 
 ```
- 
+
+# Allow Nginx to read user content
+
+```bash
+setsebool -P httpd_read_user_content 1
+```
